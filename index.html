@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperCars</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg" style="background-color: #2e94b3c1">
+        <div class= "container-fluid" text="dark">
+            <div>
+                <a class="navbar-brand" href="index.html" text="font">
+                  <img src="img/logo.png"  width="55" height="26">
+                  SuperCars
+                </a>
+              </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" text="dark">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="models.html">Models</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+             <form class="d-flex" role="search">
+              <a class="btn btn-danger me-2" href="Login_Signup/login.html" target="_blank" type="submit">Login</a>
+              <a class="btn btn-warning me-4" href="Login_Signup/signup.html" target="_blank" type="submit">Sign Up</a>
+             </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/1.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block text-dark" style="font-weight:800; background-color:rgba(140, 176, 225, 0.5);">
+                <h5 >One of the best Mercedes AMG</h5>
+                <p>Select the finest Super Car at the most affordable price for yourself.</p>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/2.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block text-dark" style="font-weight:800; background-color:rgb(140, 176, 225,0.5);">
+                <h5 >Super sports Mclaren</h5>
+                <p>If you want to be quick on the road or track, acquire a McLaren Super Sports.</p>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/3.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block text-dark" style="font-weight:800; background-color:rgb(140, 176, 225,0.5);">
+                <h5 >Be as Elegant as a Ferrari</h5>
+                <p>To add elegance to your collection, select your Ferrari Now!!.</p>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/4.png" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block text-dark" style="font-weight:800; background-color:rgb(140, 176, 225,0.5);">
+                <h5 >Bugatti a Car of Dreams</h5>
+                <p>What Colours Your Bugatti ??</p>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/5.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block text-dark" style="font-weight:800; background-color:rgb(140, 176, 225,0.5);">
+                <h5 >Lamborghini is the best out of best.</h5>
+                <p>Lamborghini is Known for its refinement, luxury and perfection.</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="title my-4">
+            <h1>Welcome to our SuperCars store!</h1>
+          </div>
+          <div class="col-md-6 mb-3">
+            <img src="img/911.jpg" class="img-fluid" alt="">
+          </div>
+          <div class=" col-md-5 mb-3" style="background-color: #d7dde28c">
+            <h3 class="headline">Porsche</h3>
+            <p>Ferry Porsche : “The brand for those who follow their dreams.” This explicitly includes the employees. Chairman of the Executive Board Oliver Blume says: “Porsche epitomises freedom and independence – and the inner drive to achieve goals.<br>To this day, nothing has changed in that regard. We want to help our customers realise their lifelong dreams.
+            With their wide range of customization options, the new models lay the groundwork for Porsche to further advance its strategy of value-creating growth.
+            </p>
+            <ul>
+              <li>Porshe 718 Cayman </li>
+              <li>Porshe 911 Carrera 4 GTS</li>
+              <li>Taycan </li>
+              <li>Macan GTS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">      
+          <div class="col-md-6 mb-3" style="background-color:#d7dde28c;">
+            <h3 class="headline">Rolls Royes</h3>
+            <p >Rolls-Royce. A name that whispers heritage, power, and unparalleled craftsmanship.  For over a century, Rolls-Royce Motor Cars has defined automotive excellence. We invite you to enter a world where bespoke design meets effortless performance, creating a driving experience unlike any other.
+              <br><br>
+              Every Rolls-Royce is a masterpiece, meticulously handcrafted to your exact specifications.  Our expert craftspeople ensure that your vision becomes reality, from the finest leathers to the most exquisite finishes.
+            </p>
+            <ul>
+              <li>Rolls Royes Ghost</li>
+              <li>Rolls Royes Cullinan</li>
+              <li>Wraith Black Badge</li>
+              <li>Rolls Royes Phanton</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img src="img/7.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row">
+          <h1 class="title my-4">Our Models</h1>
+          <div class="col-md-4">
+            <div class="card text-bg-secondary mt-3">
+              <img src="img/12.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="card-title">Mercedes Models</div>
+                <p class="card-text">Where engineering artistry meets timeless elegance.
+                  The drive to redefine luxury. One innovation at a time.</p>
+                <a href="models.html" class="btn btn-light">View Models</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="card text-bg-info mt-3">
+              <img src="img/11.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="card-title">BMW Models</div>
+                <p class="card-text">The ultimate driving machine.Engineered for thrill one and only BMW.</p>
+                <a href="models.html" class="btn btn-warning">View Models</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-bg-warning mt-3">
+              <img src="img/10.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="card-title">Porsche Models</div>
+                <p class="card-text">The legend that keeps evolving is Porsche 911</p>
+                <a href="models.html" class="btn btn-primary">View Models</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+
+      <footer class="mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h5 class="my-3">Mumbai</h5>
+              <p><i class="bi bi-geo-alt"></i> 219, E-wing, Vijay Park-1, Near Capital Mall, Nallasopara, Mumbai - 401209</p>
+              <p><i class="bi bi-telephone"></i> +91 9765124180</p>
+              <p><i class="bi bi-envelope"></i> rohit@SuperCars.in</p>
+
+              <hr>
+
+              <h5 class="my-3">Japan</h5>
+              <p><i class="bi bi-geo-alt"></i> Port of Yokohama, Japan</p>
+              <p><i class="bi bi-telephone"></i> - +971 9970300864</p>
+              <p><i class="bi bi-envelope"></i> sales@SuperCars.in</p>
+            
+
+            <hr>
+
+            <div class="mb-5">
+              <a href="" target="_blank" class="btn btn-warning"><i class="bi bi-facebook"></i></a>
+              <a href="" target="_blank" class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
+              <a href="" target="_blank" class="btn btn-danger"><i class="bi bi-instagram"></i></a>
+              <a href="" target="_blank" class="btn btn-light"><i class="bi bi-twitter-x"></i></a>
+            </div>
+
+          </div>
+
+            <div class="col-md-4">
+              <h5 style="text-align: center;" class="my-3">Sitemap</h5>
+              <a href="index.html" class="btn footer-sitemap">Home</a>
+              <a href="aboutUs.html" class="btn footer-sitemap">About Us</a>
+              <a href="models.html" class="btn footer-sitemap">Models
+              <a href="contactus.html" class="btn footer-sitemap">Contact Us</a>
+              <a href="Login_Signup/login.html" class="btn footer-sitemap">Login</a>
+              <a href="Login_Signup/signup.html" class="btn footer-sitemap">SignUp</a>
+            </div>
+
+            <div class="col-md-3">
+              <h5 class="my-3">Subscribe our Newsletter</h5>
+              <form action="">
+                <input type="text" name="text" class="form-control" placeholder="Enter email id">
+                <button class="btn btn-outline-danger mt-3">Subscribe</button>
+              </form>
+
+              <div class="my-5">
+                <h6>This website is a copyright of &copy;SuperCars of year 2024-25</h6> 
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ </body>
+</html>
+  
